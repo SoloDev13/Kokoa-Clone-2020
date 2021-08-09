@@ -9,8 +9,8 @@
   하지만 box-sizing: border-box; 를 하게 되면
   화면을 넘어가지 않도록 크기를 조절한다.
   즉, 패딩 같은 거을 무시한다. */
-  box-sizing: border-box;
   border-top: 1px solid rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
 }
 
 .nav__list {
@@ -19,5 +19,34 @@
 }
 
 .nav__link {
+  position: relative;
   color: #2e363e;
+}
+
+.nav__notification {
+  background-color: tomato;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+}
+
+.nav__morenoti {
+  background-color: tomato;
+  width: 7px;
+  height: 7px;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: -3px;
+  top: -13px;
 }
