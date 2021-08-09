@@ -4,6 +4,11 @@
   width: 100%;
   background-color: #f9f9fa;
   padding: 20px 50px;
+  /* 패딩과 width 로 인하여 전체 길이는
+  화면을 넘어가게 된다
+  하지만 box-sizing: border-box; 를 하게 되면
+  화면을 넘어가지 않도록 크기를 조절한다.
+  즉, 패딩 같은 거을 무시한다. */
   box-sizing: border-box;
   border-top: 1px solid rgba(0, 0, 0, 0.3);
 }
