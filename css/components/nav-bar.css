@@ -28,16 +28,3 @@
   left: 15px;
   bottom: 15px;
 }
-
-.nav__morenoti {
-  background-color: tomato;
-  width: 7px;
-  height: 7px;
-  border-radius: 7px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  right: -3px;
-  top: -13px;
-}
