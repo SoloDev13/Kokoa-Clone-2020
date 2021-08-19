@@ -20,6 +20,7 @@
 @import "screens/login.css";
 @import "screens/friends.css";
 @import "screens/find.css";
+@import "screens/more.css";
 
 /* 니코 스타일 : 
   styles.css 에는 모든 스크린에 적용될 수 있는 것을 두자 */

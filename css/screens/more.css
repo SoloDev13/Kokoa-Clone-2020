@@ -1,0 +1,29 @@
+.more-screen .icon-row {
+  margin-top: 35px;
+}
+
+.more-suggestions {
+  margin-top: 50px;
+  border-top: var(--main-border);
+  padding-top: 40px;
+}
+
+.more-suggestions__title {
+  margin-bottom: 30px;
+}
+
+.circle-warning {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  position: absolute;
+  right: -25px;
+  top: 28px;
+  border: 2px solid tomato;
+  color: tomato;
+  font-size: 12px;
+  font-weight: 700;
+}
