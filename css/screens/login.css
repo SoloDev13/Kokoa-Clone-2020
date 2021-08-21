@@ -2,6 +2,10 @@
   position: absolute;
 }
 
+.status-bar .index-page {
+  position: relative;
+}
+
 .welcome-header {
   margin: 90px 0px;
   text-align: center;
