@@ -49,10 +49,20 @@
   margin-bottom: 25px;
 }
 
+@keyframes messageFadeIn {
+  from {
+    transform: translateX(-40px);
+  }
+  to {
+    transform: none;
+  }
+}
+
 .message-row {
   width: 100%;
   display: flex;
   margin-bottom: 25px;
+  animation: messageFadeIn 0.8s linear;
 }
 
 .message-row img {
@@ -87,8 +97,18 @@
   font-size: 14px;
 }
 
+@keyframes messageOwnFadeIn {
+  from {
+    transform: translateX(40px);
+  }
+  to {
+    transform: none;
+  }
+}
+
 .message-row--own {
   justify-content: flex-end;
+  animation: messageOwnFadeIn 0.8s linear;
 }
 
 .message-row--own .message__bubble {
